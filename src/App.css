@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.teamCard {
+  border: 2px solid black; /* Black outline */
+  padding: 20px; /* Padding inside the box */
+  margin: 10px; /* Spacing between boxes */
+  width: 200px; /* Set width of each box */
+  text-align: left;
+}
+
+.teamList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
